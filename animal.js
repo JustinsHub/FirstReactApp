@@ -1,4 +1,4 @@
-const Animal =({name = "Candlestick", species}) =>{
+const Animal =({name, species}) =>{
     return(
     <ul>
         <li>Name: {name}</li>
