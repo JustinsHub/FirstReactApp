@@ -3,6 +3,7 @@ const App = () =>{
         <div>
             <h1>Hello World</h1>
             <Animal name="Dexter" species="Dog"/>
+            <Animal emptiness="yup"/>
         </div>
     )
 }

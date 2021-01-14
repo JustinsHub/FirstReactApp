@@ -1,8 +1,8 @@
-const Animal =(props) =>{
+const Animal =({name = "Candlestick", species}) =>{
     return(
     <ul>
-        <li>Name: {props.name}</li>
-        <li>Species: {props.species}</li>
+        <li>Name: {name}</li>
+        <li>Species: {species}</li>
     </ul>
     )
 }
